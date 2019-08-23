@@ -18,7 +18,8 @@ Implemented in WGAN-GP
 (to be added)
 
 ## Results
-(to be modified)
+(to be modified)\
+The cluster accuracy(given the real data, how correctly the model inferred the class) was around 92~94.
 Successful case(mode is given by 0):\
 ![Overview](https://github.com/Sooram/ClusterGAN-tensorflow/blob/master/res_mode0_label6.PNG)
 When the mode is given by 2, which needs to generate label 0 images, the results were not good.\
@@ -27,5 +28,5 @@ When the mode is given by 2, which needs to generate label 0 images, the results
 ## Comments
 (to be modified)
 - Very similar concept with InfoGAN
-- Training needed quite a lot of time(did not converged well)
-- From my experiment, the results were not that impressive.(Maybe my code...? or not sufficiently trained...? I need to check again.)
+- Training needed quite a lot of time(did not converge well)
+- From my experiment, the results were not that impressive.(Maybe my code...? or not sufficiently trained...? I implemented and ran these codes really quickly, I need to check again.)
